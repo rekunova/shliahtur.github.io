@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Power Clean</title>
+    <meta name="title" content="Power Clean">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.min-datepicker.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P"
+        crossorigin="anonymous">
+    <link href="css/font-awesome.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/poppy.js"></script>
+    <script src="jquery-ui/jquery-ui.min.js"></script>
+    <script src="js/jquery-ui.min-datepicker.js"></script>
+</head>
+
+<body>
+
+    <header class="b-header">
+        <div class="all-wr">
+            <div class="b-header_line">
+                <a class="b-header_logo">Power Clean</a>
+                <p class="b-header_contact">+38 (099) 999 99 99</p>
+                <nav class="b-header_menu  b-menu">
+                    <ul class="b-menu_list">
+                        <li class="b-menu_li">
+                            <a href="#main" class="b-menu_link  b-header_link__active">Главная</a>
+                        </li>
+                        <li class="b-menu_li">
+                            <a href="#directions" class="b-menu_link">Цены</a>
+                        </li>
+                        <li class="b-menu_li">
+                            <a href="#timetable" class="b-menu_link">Работа</a>
+                        </li>
+                        <li class="b-menu_li">
+                            <a href="#sertificates" class="b-menu_link ">Планы</a>
+                        </li>
+
+                        <li class="b-menu_li">
+                            <a href="#footer" class="b-menu_link ">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+            </div>
+            <h1 class="b-header_heading ">Предоставьте нам
+                <br> Ваши заботы
+
+            </h1>
+            <p class=" b-header_text">Услуги клининговой компании в городе Киев </p>
+            <button class="b-header_button">Узнать цену</button>
+
+
+            <div class="b-header_links b-social_links">
+                <li class="b-social_link ">
+                    <a href="https://viber.com" class="b-link  b-link__viber"></a>
+                </li>
+                <li class="b-social_link ">
+                    <a href="https://www.facebook.com/alex.powerclean" class="b-link  b-link__facebook"></a>
+                </li>
+                <li class="b-social_link ">
+                    <a href="https://www.instagram.com/Power_Clean_in_Kiev/" class="b-link  b-link__inst "></a>
+                </li>
+
+                <li class="b-social_link ">
+                    <a href="https://telegram.org" class="b-link  b-link__telegram"></a>
+                </li>
+
+            </div>
+
+
+            <div id="headerLine" class="b-header_line b-header_line__mobile">
+                <a class="b-header_logo">Клининг</a>
+                <nav class="b-header_menu b-header_menu__mobile  b-menu">
+                    <div class="b-header_open-button b-menu_button__mobile" id="openMenu"></div>
+                    <ul class="b-menu_list b-menu_list__mobile" id="mobileMenu">
+
+                        <li class="b-menu_li b-menu_li__mobile">
+                            <div class="close-btn-menu"></div>
+                            <a href="#main" class="b-menu_link  b-header_link__active">Главная</a>
+                        </li>
+                        <li class="b-menu_li b-menu_li__mobile">
+                            <a href="#directions" class="b-menu_link">Направления</a>
+                        </li>
+                        <li class="b-menu_li b-menu_li__mobile">
+                            <a href="#timetable" class="b-menu_link">Расписание</a>
+                        </li>
+                        <li class="b-menu_li b-menu_li__mobile">
+                            <a href="#sertificates" class="b-menu_link ">Абонементы</a>
+                        </li>
+                        <li class="b-menu_li b-menu_li__mobile">
+                            <a href="#gallery" class="b-menu_link ">Галерея</a>
+                        </li>
+                        <li class="b-menu_li b-menu_li__mobile">
+                            <a href="#footer" class="b-menu_link ">Контакты</a>
+                        </li>
+                        <div class="b-header_links__mobile b-social_links">
+                            <li class="b-social_link ">
+                                <a href="https://viber.com" class="b-link  b-link__viber"></a>
+                            </li>
+                            <li class="b-social_link ">
+                                <a href="https://www.instagram.com/Power_Clean_in_Kiev/" class="b-link  b-link__inst "></a>
+                            </li>
+                            <li class="b-social_link ">
+                                <a href="https://telegram.org" class="b-link  b-link__telegram"></a>
+                            </li>
+                            <li class="b-social_link ">
+                                <a href="https://www.facebook.com/alex.powerclean" class="b-link  b-link__facebook"></a>
+                            </li>
+                        </div>
+                    </ul>
+
+
+                </nav>
+            </div>
+
+
+
+
+    </header>
+
+    <div class="b-block main">
+        <div class="all-wr">
+            <h2 class="b-block_heading" id="directions">Калькулятор цен</h2>
+            <div class="container">
+                    
+                <div class="calculator">
+                        <div class="priceContainer">
+                                <label class="totalLabel" for="total">Сумма:</label>
+                                <input type="number" name="Price" id="total" readonly />
+                            </div>
+                       
+                            <div class="slick_slider">
+                      
+     <div>
+                    <div class="typeButtons">
+                        <input type="button" class="type flat" onclick="return false;" value="Квартира" />
+                        <input type="button" class="type office" onclick="return false;" value="Офис" />
+                        <input type="button" class="type house" onclick="return false;" value="Коттедж" />
+                    </div>
+                    <div class="sliders">
+                        <div class="flat-container">
+                            <div id="flat-slider"> </div>
+                            <p>
+                                <label class="price-label" for="flat-amount">Кол-во комнат</label>
+                                <input type="text" name="RoomAmount" id="flat-amount" readonly>
+                            </p>
+                           
+                        </div>
+
+                        <div class="office-container">
+                            <div id="office-slider"> </div>
+                            <p>
+                                <label class="price-label" for="office-amount">Квадратных метров</label>
+                                <input type="text" name="Square" id="office-amount" readonly>
+                            </p>
+                            
+                        </div>
+                        <div class="house-container">
+                            <div id="house-slider"> </div>
+                            <p>
+                                <label class="price-label" for="house-amount">Квадратных метров</label>
+                                <input type="text" name="Square" id="house-amount" readonly>
+                            </p>
+                           
+                        </div>
+                        <div id="bath-slider"> </div>
+                        <p>
+                            <label class="price-label" for="bath-amount">Кол-во санузлов</label>
+                            <input type="text" name="BathAmount" id="bath-amount" readonly>
+                        </p>
+                   </div>
+                   <div class="types">
+                        <input type="button" class="xtype super" onclick="return false;" value="Генеральная" />
+                        <input type="button" class="xtype simple" onclick="return false;" value="Поддерживающая" />
+                        <input type="button" class="xtype afterRepair" onclick="return false;" value="После ремонта" />
+                    </div>
+                    <input type="button" id="next-slick" value="Далее"/>
+
+                 
+  </div>
+                    
+   <div>
+        <div class="periods">
+                <input type="button" class="period oneTime" onclick="return false;" value="Разовая" />
+
+                <div class="period-wrapper">
+                    <input type="button" class="period everyWeek" onclick="return false;" value="Каждую неделю" />
+                    <label for="everyWeek">скидка -20%</label>
+                </div>
+                <div class="period-wrapper">
+                    <input type="button" class="period every2Weeks" onclick="return false;" value="Каждые 2 недели" />
+                    <label for="everyWeek">скидка -15%</label>
+                </div>
+                <div class="period-wrapper">
+                    <input type="button" class="period every4Weeks" onclick="return false;" value="Каждые 4 недели" />
+                    <label for="everyWeek">скидка -10%</label>
+                </div>
+            </div>
+                   
+  
+      
+            <div class="icons">
+                    <input type="checkbox" id="fridgeCheckBox" name="Optional" value="Холодильник" />
+                    <label class="label_text" for="fridgeCheckBox">
+                        <div class="icon fridge"></div>
+                        <div class="icon_text">Холодильник</div>
+                    </label>
+                    <input type="checkbox" id="ovenCheckBox" name="Optional" value="Духовка" />
+                    <label class="label_text" for="ovenCheckBox">
+                        <div class="icon oven"></div>
+                        <div class="icon_text">Духовка</div>
+                    </label>
+                    <input type="checkbox" id="microCheckBox" name="Optional" value="Микроволновка" />
+                    <label class="label_text" for="microCheckBox">
+                        <div class="icon micro"></div>
+                        <div class="icon_text">Микроволновка</div>
+                    </label>
+                    <br>
+                    <div class="label_text2">
+                    <input type="checkbox" id="scarfCheckBox" name="Optional" value="Шкафчик" />
+                    <label class="label_text" for="scarfCheckBox">
+                        <div class="icon scarf"></div>
+                        <div class="icon_text">Шкаф</div>
+                    </label>
+                    <input type="checkbox" id="wallCheckBox" name="Optional" value="Стены" />
+                    <label class="label_text" for="wallCheckBox">
+                        <div class="icon wall"></div>
+                        <div class="icon_text">Мойка стен</div>
+                    </label>
+                    <input type="checkbox" id="exhaustCheckBox" name="Optional" value="Вытяжка" />
+                    <label class="label_text" for="exhaustCheckBox">
+                        <div class="icon exhaust"></div>
+                        <div class="icon_text">Вытяжка</div>
+                    </label>
+                </div>
+                </div>
+                <input type="button" id="prev-slick" value="⭠ назад"/>
+                <input type="button" id="next2-slick" value="Далее"/>
+  </div>
+  <div>
+                        
+                        <div class="contact1">
+                        <label class="b-form_label name-label" for="input-name">Ваше имя</label>
+                        <input type="text" class="b-form_input input-name" name="Name" placeholder="Введите имя">
+                       
+                        <label class="b-form_label phone-label" for="input-phone">Контактный телефон</label>
+                        <input type="text" class="b-form_input input-phone" name="Phone" placeholder="Введите телефон">
+                    </div>
+                        <div class="contact1">
+                        <label class="b-form_label adress-label" for="input-adress">Адрес</label>
+                        <input type="text" class="b-form_input input-adress" name="Adress" placeholder="Введите адресс">
+
+                        <label class="b-form_label date-label" for="input-date">Дата и время</label>
+                        <input type="text" class="b-form_input input-date datepicker" autocomplete="off"  name="DateTime" placeholder="Введите дату">
+                    </div>
+                    <select class="form-control" id="paymentList" name="Payment">
+                            <option value="1">Приват24</option>
+                            <option value="2">Наличные</option>
+                        </select>
+                   
+                        <script>
+                            $(function () {
+                                $(".datepicker").datepicker().closest('body').find('#ui-datepicker-div').wrap('<div class="datepickerTheme"></div>');
+                                $('.datepicker').datepicker({
+                                    dateFormat: "yy-mm-dd",
+                                    minDate: new Date($('#hiddendelivdate').val()),
+                                    monthNames:
+                                        ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+                                    dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+                                    buttonText: "<i class='fa fa-calendar'></i>"
+                                });
+                            });
+                        </script>
+                      
+                      
+
+
+
+
+                        <input type="hidden" name="Id" value="@Model.Id" />
+                        <input type="hidden" name="Periodicity" id="periodHandler" />
+                        <input type="hidden" name="RoomType" id="roomTypeHandler" />
+                        <input type="hidden" name="Type" id="cleanTypeHandler" />
+                        
+                       
+                        <br />
+                       
+                        <div class="sumbutton">
+                                <input type="button" id="prev2-slick" value="⭠ назад"/>
+                                <input type="submit" id="totalbutton" name="Price" value="Оформить" />
+                              
+                            </div>
+                           
+           
+  </div>
+                   
+                      </div>
+
+                     
+                </div> <!--SLICK-->
+              
+                  
+                  <script>
+                      $('#next-slick').click(function(){
+                      $(".slick_slider").slick('slickNext');
+                    });
+                    $('#next2-slick').click(function(){
+                      $(".slick_slider").slick('slickNext');
+                    });
+                    $('#prev-slick').click(function(){
+                        $(".slick_slider").slick('slickPrev');
+                    });
+                    $('#prev2-slick').click(function(){
+                        $(".slick_slider").slick('slickPrev');
+                    })
+                  </script>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    </div>
+      
+    <div class="b-block serificates">
+        <div class="all-wr">
+            <h2 class="b-block_heading" id="sertificates">Виды уборок</h2>
+            <div class="b-block_item-container">
+
+                <div class="poppy" id="popup-1">
+                    <div class="popp_description">
+                        <h3 class="b-article_heading">Частичная уборка</h3>
+                        <p class="popp_text">Это вид уборки, когда вы сами выбираете нужные вам аспекты уборки и только в тех местах, которые вам нужны.
+                                Чаще всего уборка происходит в кухне где чаще всего загрязняется рабочая поверхность и ванной с туалетом, где чаще всего нужно приложить больше времени и усилий, для наведения порядка.</p>
+                        <button class="b-article_button  button close-form">Ок</button>
+                    </div>
+                </div>
+                <div class="poppy" id="popup-2">
+                    <div class="popp_description">
+                        <h3 class="b-article_heading">Поддерживающая уборка</h3>
+                        <p class="popp_text">
+                                <br>  <span class="popp_header">Постоянные виды работ при поддерживающей уборке:</span><br><br>
+                                •  удаление пыли со всех поверхностей</br>
+                                •  мойка пола</br>
+                                •  мойка дверей</br>
+                                •  подоконников</br>
+                                •  сантехники</br>
+                                •  фасады кухни</br>
+                                •  фартук кухни</br>
+                                •  столешница</br>
+                                •  мойка посуды на две персоны</br>
+                                
+                                <br>  <span class="popp_header">Периодические работы при поддерживающей уборке:</span><br><br>
+                                •  мытье всей бытовой техники</br>
+                                •  кафеля в санузле</br>
+                                •  глажка (комплект постельного белья, три
+                                полотенца, три рубашки)</p>
+                        <button class="b-article_button  button close-form">Ок</button>
+                    </div>
+                </div>
+                <div class="poppy" id="popup-3">
+                    <div class="popp_description">
+                        <h3 class="b-article_heading">Уборка после ремонта</h3>
+                        <p class="popp_text"><br>
+                                В услугу Уборка после ремонта входят следующие виды работ:<br>
+                                <br>  <span class="popp_header">удаляется пыль и грязь c:</span><br><br>
+                                •  пола  <br>
+                                •  стен  <br>
+                                •  дверей  <br>
+                                <br>  <span class="popp_header">моются:</span><br><br>
+                                •  батареи <br>
+                                •  карнизы <br>
+                                •  плинтуса <br>
+                                •  все элементы освещения <br>
+                                •  все зеркала <br>
+                                •  мебель внутри и снаружи <br>
+                                •  вся техника <br>
+                                •  сантехника <br>
+                                •  кафель <br><br>
+                                
+                                Стоимость на уборку после ремонта в Киеве формируется наличием мебели и степенью загрязнения  помещения.
+                                Цена формируется в зависимости от того, есть ли мебель или нет. 30 грн кв\м если мебели нет и 40 грн кв\м если мебель есть.
+                        </p>
+                        <button class="b-article_button  button close-form">Ок</button>
+                    </div>
+                </div>
+                <div class="poppy" id="popup-4">
+                    <div class="popp_description">
+                        <h3 class="b-article_heading">Генеральная уборка</h3>
+                        <p class="popp_text">
+                               <br>  <span class="popp_header">В жилых комнатах:</span><br> </br>
+                            - Протираем все доступные поверхности, выключатели и дверные ручки </br>
+                            - Чистим зеркала и стеклянные поверхности </br>
+                            - Складываем одежду и расставляем вещи </br>
+                            - Застилаем кровать </br>
+                            - Моем пол, протираем плинтусы и пылесосим ковёр </br>
+                            - Убираем мусор </br>
+                           <br> <br> <span class="popp_header">На кухне:</span><br> </br>
+                            - Протираем все доступные поверхности, выключатели и дверные ручки </br>
+                            - Моем снаружи плиту, столешницу и хоОбл.дильник </br>
+                            - Чистим раковину </br>
+                            - Моем пол и протираем плинтусы </br>
+                            - Выносим мусор </br>
+                         <br> <br>  <span class="popp_header">В ванной и туалете:</span><br> </br>
+                            - Протираем все доступные поверхности, выключатели и дверные ручки </br>
+                            - Моем и дезинфицируем унитаз </br>
+                            - Моем душевую кабину и ванную </br>
+                            - Чистим зеркала и стеклянные поверхности </br>
+                            - Моем пол, протираем плинтусы и пылесосим коврики </br>
+                            - Протираем шкафы с внешней стороны </br>
+                            - Выносим мусор </br>
+                           <br> <br> <span class="popp_header">В коридоре:</span><br> </br>
+                            - Протираем все доступные поверхности </br>
+                            - Чистим зеркала и стеклянные поверхности </br>
+                            - Моем пол, протираем плинтусы и пылесосим коврики </br>
+                            - Расставляем обувь</p>
+                        <button class="b-article_button  button close-form">Ок</button>
+                    </div>
+                </div>
+
+                <div class="b-block_item item">
+                    <div class="item_class item_header">Частичная</div>
+                    <div class="item_price">
+                        <span class="item_price__bold"> 300</span>
+                        <br>грн</div>
+                    <button class="item_button button btn1">Подробнее</button>
+                    <script>
+                        $(".btn1").poppy("popup-1");
+
+                    </script>
+                </div>
+
+
+
+                <div class="b-block_item item">
+                    <div class="item_class item_header">Поддерживающая</div>
+                    <div class="item_price">
+                        <span class="item_price__bold">500</span>
+                        <br>грн</div>
+                    <button class="item_button button btn2">Подробнее</button>
+                    <script>
+                        $(".btn2").poppy("popup-2");
+
+                    </script>
+                </div>
+                <div class="b-block_item item">
+                    <div class="item_class item_header">После ремонта</div>
+                    <div class="item_price">
+                        <span class="item_price__bold">1000</span>
+                        <br>грн</div>
+                        <button class="item_button button btn3">Подробнее</button>
+                        <script>
+                            $(".btn3").poppy("popup-3");
+    
+                        </script>
+                </div>
+                <div class="b-block_item item">
+                    <div class="item_class item_header">Генеральная</div>
+                    <div class="item_price">
+                        <span class="item_price__bold">1500</span>
+                        <br>грн</div>
+                        <button class="item_button button btn4">Подробнее</button>
+                        <script>
+                            $(".btn4").poppy("popup-4");
+    
+                        </script>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="b-block timeblock">
+        <div class="all-wr">
+            <h2 id="timetable" class="b-block_heading">Дополнительные услуги</h2>
+            <div class="b-block_timetable">
+                <table class="b-block_table table">
+                    <tr class="table_line">
+                        <td class="table_col table_col__left">Холодильник
+                        <span class=" table_span table_span__details "> (с продуктами/без)</span>
+                    </td>
+                   
+                        <td class="table_col table_col__right">200/100</td>
+                    </tr>
+                    <tr class="table_line">
+                        <td class="table_col table_col__left">Духовка
+                            <span class=" table_span table_span__details "> (отмыть внутри)</span>
+                        </td>
+                      
+                        <td class=" table_col table_col__right">200</td>
+                    </tr>
+                    <tr class="table_line">
+                        <td class="table_col table_col__left">Микроволновка</td>
+                        
+                        <td class=" table_col table_col__right">200</td>
+                    </tr>
+                    <tr class="table_line">
+                        <td class="table_col table_col__left">Шкафчик</td>
+                
+                        <td class=" table_col table_col__right">150/час</td>
+                    </tr>
+                    <tr class="table_line">
+                        <td class="table_col table_col__left">Мойка стен</td>
+                        
+                        <td class=" table_col table_col__right">250/час</td>
+                    </tr>
+                    <tr class="table_line">
+                        <td class="table_col table_col__left">Вытяжка
+                            <span class="table_span table_span__details"> (внутри)</span>
+                        </td>
+                      
+                        <td class=" table_col table_col__right">250/час</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="b-block feedback">
+        <div class="all-wr">
+            <h2 class="b-block_heading">Как мы делаем уборку квартиры</h2>
+            <p class="b-block_text__feedback">Наш сотрудник приезжает в назначенное время со всем необходимым <br>
+                и сразу приступает к делу. Вам остаётся только оценить результат</p>
+                <div class="howToPhoto"></div>
+    </div>
+    
+
+    <footer id="footer" class="b-footer footer">
+        <div class="all-wr">
+            <div class="b-block_footer">
+                <h4 class="footer_heading">Power Clean 2018</h4>
+                <p class="footer_text">
+                    Клининговая компания
+                    <br> Киев +(380)999 999 99
+                    <br>powercleankiev@gmail.com
+                    <br>
+                </p>
+                <div class="b-footer_links b-social_links">
+                    <li class="b-social_link ">
+                        <a href="https://viber.com" class="b-link  b-link__viber"></a>
+                    </li>
+                    <li class="b-social_link ">
+                        <a href="https://www.facebook.com/alex.powerclean" class="b-link  b-link__facebook"></a>
+                    </li>
+                    <li class="b-social_link ">
+                        <a href="https://www.instagram.com/Power_Clean_in_Kiev/" class="b-link  b-link__inst "></a>
+                    </li>
+                    <li class="b-social_link ">
+                        <a href="https://telegram.org" class="b-link  b-link__telegram"></a>
+                    </li>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="slick/slick.min.js"></script>
+    <script src="js/slick-slider.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/anchor.js"></script>
+
+</body>
