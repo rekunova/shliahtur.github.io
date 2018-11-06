@@ -85,8 +85,8 @@ body {
           box-sizing: content-box; }
   .button:hover {
     color: #ffffff;
-    border: white;
-    background: white }
+    border: #444444;
+    background: #444444 }
 
 .b-header {
   background-color: #f3f5f4;
