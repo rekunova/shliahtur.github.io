@@ -4,7 +4,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         adaptiveHeight: true,
         draggable: false,
-        
+        swipe:false,
         responsive: [
             {
               breakpoint: 976,
