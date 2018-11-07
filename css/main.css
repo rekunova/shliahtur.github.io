@@ -1714,24 +1714,29 @@ body {
                       padding: 40px 25px; 
                     }
                     #flat-slider{
-                      max-width: 300px;
+                      max-width: 280px;
                       margin-top: 40px;
                     }
                     #office-slider{
-                      max-width: 300px;
+                      max-width: 280px;
                       margin-top: 40px;
                     }
                     #house-slider{
-                      max-width: 300px;
+                      max-width: 200px;
                       margin-top: 40px;
                     }
-                   
+                   #total{
+                     text-align: right;
+                   }
+                   .totalLabel{
+                     margin-left: -55px;
+                   }
                     .price-label{
                       margin-left: 20px;
                       margin-bottom: 0px;
                     }
                     #bath-slider{
-                      margin-top: 60px;
+                      margin-top: 20px;
                       max-width: 300px
                     }
                     #flat-amount{
@@ -1756,6 +1761,10 @@ body {
                     padding: 15px 7px;
                     font-size: 12px;
                     margin-top: 30px;
+                  }
+                  .bigTotalLabel{
+                    left: 0;
+                    margin-bottom: 28px;
                   }
       
                   #next-slick{
@@ -1816,7 +1825,7 @@ body {
                       padding: 40px 25px; 
                     }
                     .type {
-                      padding: 10px 12px;
+                      padding: 10px 10px;
                       font-size: 14px;
                     }
                     .xtype {
@@ -1825,19 +1834,19 @@ body {
                       margin-top: 30px;
                   }
                   #flat-slider{
-                    max-width: 240px;
+                    max-width: 200px;
                    
                   }
                   #office-slider{
-                    max-width: 240px;
+                    max-width: 200px;
                
                   }
                   #house-slider{
-                    max-width: 240px;
+                    max-width: 200px;
                    
                   }
                   #bath-slider{
-                    max-width: 240px;
+                    max-width: 200px;
                    
                   }
                   .icon_text {
@@ -1853,23 +1862,31 @@ body {
                   margin: 0 0 25px 0;
                 }
                 #totalbutton{
-                  left:3%;
+                  left:17%;
                 }
                 #next-slick{
                   left: 23%
                 }
                 #next2-slick{
-                  left: 3%
+                  left: 18%
                 }
 
                 #prev2-slick {
-                  margin-left: -5px;
+                  margin-left: 0;
                   margin-top: 20px;
                   font-size: 16px;
                 }
                 #prev-slick {
-                  margin-left: -5px;
+                  margin-left: 0;
                   font-size: 16px;
                   margin-top: 20px;
                 }
+                .icon {
+                  height: 65px;
+                  width: 60px;
+                  background-size: 60px auto;
+                  
                   }
+
+                
+                }

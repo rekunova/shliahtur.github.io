@@ -133,6 +133,7 @@ $(function () {
             if (rooms >= 2) {
                 total = (400 + rooms * 1000 + features + bathPrice) * discont * type;
                 total = Math.round(total);
+                $("#total").show();
                 $("label[for='flat-amount']").text("Кол-во комнат:");
                 $(".totalLabel").text("Сумма:").removeClass('bigTotalLabel');
 
@@ -146,7 +147,9 @@ $(function () {
                 total = "Цена договорная"
                 $("#flat-amount").val("100м2");
                 $("label[for='flat-amount']").text("Больше")
+                $("#total").hide();
                 $(".totalLabel").text("Цена договорная").addClass('bigTotalLabel')
+
             }
             $("#total").val(total);
         }
