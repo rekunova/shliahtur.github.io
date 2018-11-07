@@ -876,7 +876,7 @@ body {
     }
     @media (max-width: 350px) {
       .b-form_input {
-        max-width: 250px; } }
+        max-width: 260px; } }
     .b-form_input__button {
       -webkit-appearance: none;
       border-radius: 0;
@@ -1432,17 +1432,19 @@ body {
             }
             
             .scarf {
-         
+            
                 background-image: url(../img/scarf.png);
             }
-            
+          
             .wall {
-                
+              margin-left: 10px;
                 background-image: url(../img/wall.png);
             }
             .exhaust{
               background-image: url(../img/exhaust.png);
+          
             }
+        
             
             ul {
                 list-style-type: none;
@@ -1575,7 +1577,7 @@ body {
                       background-position-y: center; 
                       background-position-x: center;
                       height: 600px;  
-                    
+                      width: 100%;
                     margin-top: 30px;
                   margin-bottom: 150px}
 
@@ -1703,9 +1705,6 @@ body {
                       margin-right: auto;
                       margin-top: 100px;
                       max-width: 400px;
-                      background: #ffffff;
-                      -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
-                              box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
                       padding: 40px 25px; 
                     }
                     #flat-slider{
@@ -1798,4 +1797,66 @@ body {
                      padding: 15px 35px;
                      left: 18%;
                    }
+                  }
+
+                  @media (max-width: 445px){
+
+                    .calculator {
+              
+                      margin-left: auto;
+                      margin-right: auto;
+                      margin-top: 100px;
+                      max-width: 316px;
+                      padding: 40px 25px; 
+                    }
+                    .type {
+                      padding: 10px 12px;
+                      font-size: 14px;
+                    }
+                    .xtype {
+                      padding: 13px 5px;
+                      font-size: 9px;
+                      margin-top: 30px;
+                  }
+                  #flat-slider{
+                    max-width: 240px;
+                   
+                  }
+                  #office-slider{
+                    max-width: 240px;
+               
+                  }
+                  #house-slider{
+                    max-width: 240px;
+                   
+                  }
+                  #bath-slider{
+                    max-width: 240px;
+                   
+                  }
+                  .icon_text {
+                    font-size: 10px;
+                } 
+                .b-form_input{
+                  margin-left: 0;
+                }
+                .b-form_label {
+                  padding-left: 0;
+                }
+                #paymentList{
+                  margin: 0 0 25px 0;
+                }
+                #totalbutton{
+                  left:8%;
+                }
+                #next-slick{
+                  left: 23%
+                }
+                #next2-slick{
+                  left: 3%
+                }
+                #prev2-slick {
+                  margin-left: 0;
+                  margin-top: 20px;
+                }
                   }
