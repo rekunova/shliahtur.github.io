@@ -1742,7 +1742,7 @@ body {
                       max-width: 300px
                     }
                     #flat-amount{
-                      width: 70px;
+                      width: 90px;
                     }
                     #bath-amount{
                       width: 70px;
@@ -1827,7 +1827,8 @@ body {
                       padding: 40px 5px; 
                     }
                     .type {
-                      padding: 10px 20px;
+                      margin-left: -1px;
+                      padding: 10px 18px;
                       font-size: 14px;
                     }
                     .xtype {
