@@ -16,7 +16,8 @@
     textarea,
     input[type="text"],
     input[type="button"],
-    input[type="submit"] {
+    input[type="submit"],
+    input[type="select"] {
          -webkit-appearance: none;
          border-radius: 0;
     }
@@ -1727,6 +1728,7 @@ body {
                     }
                    #total{
                      text-align: right;
+                     margin-right: 10px;
                    }
                    .totalLabel{
                      margin-left: -55px;
@@ -1740,16 +1742,16 @@ body {
                       max-width: 300px
                     }
                     #flat-amount{
-                      width: 60px;
+                      width: 70px;
                     }
                     #bath-amount{
-                      width: 60px;
+                      width: 70px;
                     }
                     #office-amount{
-                      width: 60px;
+                      width: 70px;
                     }
                     #house-amount{
-                      width: 60px;
+                      width: 70px;
                     }
                     .sliders {
                       margin-top: 0px;
@@ -1764,7 +1766,7 @@ body {
                   }
                   .bigTotalLabel{
                     left: 0;
-                    margin-bottom: 28px;
+                    margin-bottom: 29px;
                   }
       
                   #next-slick{
@@ -1822,35 +1824,35 @@ body {
                       margin-right: auto;
                       margin-top: 100px;
                       max-width: 316px;
-                      padding: 40px 25px; 
+                      padding: 40px 5px; 
                     }
                     .type {
-                      padding: 10px 10px;
+                      padding: 10px 20px;
                       font-size: 14px;
                     }
                     .xtype {
-                      padding: 13px 5px;
-                      font-size: 9px;
+                      padding: 13px 8px;
+                      font-size: 10px;
                       margin-top: 30px;
                   }
                   #flat-slider{
-                    max-width: 200px;
+                    max-width: 250px;
                    
                   }
                   #office-slider{
-                    max-width: 200px;
+                    max-width: 250px;
                
                   }
                   #house-slider{
-                    max-width: 200px;
+                    max-width: 250px;
                    
                   }
                   #bath-slider{
-                    max-width: 200px;
+                    max-width: 250px;
                    
                   }
                   .icon_text {
-                    font-size: 10px;
+                    font-size: 11px;
                 } 
                 .b-form_input{
                   margin-left: 0;
