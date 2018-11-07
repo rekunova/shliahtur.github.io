@@ -56,12 +56,6 @@ window.onload = function(){
  
 };
 
-var buttonsArr = [].slice.call(document.getElementsByClassName("************"));
-var formaBlock = document.getElementById("submit");
-buttonsArr.forEach(function(item){
-  item.addEventListener('click',function(){
-    formaBlock.scrollIntoView();
-  });
-});
+
  
 
