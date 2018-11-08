@@ -1908,5 +1908,10 @@ body {
                 .period-wrapper{
                   width: 130px;
                 }
-                
+                .payment-label {
+                  margin-bottom: 10px;
+              }
+              #paymentList {
+                margin: 0 0 40px 20px;
+               }
                 }
