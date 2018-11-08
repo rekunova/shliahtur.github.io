@@ -22,6 +22,11 @@
          appearance: none;
          border-radius: 0;
     }
+    select{
+      -moz-appearance: none; 
+	-webkit-appearance: none; 
+	appearance: none;
+    }
 body {
   font-family: Montserrat, Arial, sans-serif;
   margin: 0 auto; }
@@ -1866,13 +1871,13 @@ body {
                   margin: 0 0 25px 20px;
                 }
                 #totalbutton{
-                  left:3%;
+                  left:2%;
                 }
                 #next-slick{
                   left: 23%
                 }
                 #next2-slick{
-                  left: 3%
+                  left: 2%
                 }
 
                 #prev2-slick {
