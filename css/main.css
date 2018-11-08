@@ -1856,22 +1856,22 @@ body {
                     font-size: 11px;
                 } 
                 .b-form_input{
-                  margin-left: 0;
+                  margin-left: 20px;
                 }
                 .b-form_label {
-                  padding-left: 0;
+                  padding-left: 20px;
                 }
                 #paymentList{
-                  margin: 0 0 25px 0;
+                  margin: 0 0 25px 20px;
                 }
                 #totalbutton{
-                  left:17%;
+                  left:5%;
                 }
                 #next-slick{
                   left: 23%
                 }
                 #next2-slick{
-                  left: 18%
+                  left: 5%
                 }
 
                 #prev2-slick {
@@ -1891,7 +1891,7 @@ body {
                   
                   }
                   .period {
-                    width: 130px;
+                    width: 135px;
                     font-size: 11px;
                     padding: 14px 10px;
                 }
