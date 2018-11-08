@@ -1890,6 +1890,13 @@ body {
                   background-size: 60px auto;
                   
                   }
-
+                  .period {
+                    width: 130px;
+                    font-size: 11px;
+                    padding: 14px 10px;
+                }
+                .period-wrapper{
+                  width: 130px;
+                }
                 
                 }
