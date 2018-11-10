@@ -40,12 +40,24 @@ var headerLine = document.getElementById("headerLine");
  var menuList = [].slice.call(document.getElementsByClassName("b-menu_li__mobile"));
 window.onload = function(){
   openMenu.onclick = function (){
+    $('#openMenu').hide();
+    $('.b-header_heading ').hide();
+    $('.b-header_text ').hide();
+    $('.b-header_button ').hide();
     if (menuStyle.display == "none"){
       mobileMenu.classList.add("b-menu_list__active");
     }
     else
     mobileMenu.classList.remove("b-menu_list__active"); 
+  
   };
+  $('.close-btn-menu').click(function(){
+    $('#openMenu').show();
+    $('.b-header_heading ').show();
+    $('.b-header_text ').show();
+    $('.b-header_button ').show();
+  })
+
 
   menuList.forEach(function(item){
     item.addEventListener('click', function(){
