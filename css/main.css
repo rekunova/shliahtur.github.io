@@ -102,11 +102,50 @@ body {
     border: #444444;
     background: #444444 }
 
+    .howToPhoto{
+      background-image: url(../img/howTo.jpg);
+      
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 600px;  
+      margin-top: 30px;
+      margin-bottom: 150px}
+      .howToList{
+        display: none;
+
+      }
+      .howToLi{
+        margin-bottom: 20px;
+      }
+      @media (max-width: 800px) {
+        .howToPhoto{
+         display: none;
+        } 
+        .howToList{
+          font-weight: 600;
+          display: block;
+          line-height: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 20em;
+          margin-bottom: 80px;
+
+        }
+        .howToList li::before{
+          content: "";
+          margin-right: 15px;
+          font-size: 4px;
+          background: rgb(32, 160, 82);
+          border-radius: 50%;
+          padding: 1px 3px;
+          vertical-align: bottom;
+        }
+      
+        }
 .b-header {
-  background-color: #f3f5f4;
+
   background-image:  url(../img/main-pic.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: left;
   background-size: cover;
   
@@ -1569,17 +1608,7 @@ body {
               display: none;
             }
 
-            .howToPhoto{
-              background-image: url(../img/howTo.jpg);
-              background-repeat: no-repeat;
-              -webkit-background-size: auto 600px;
-                      background-size: auto 600px;
-                      background-position-y: center; 
-                      background-position-x: center;
-                      height: 600px;  
-                      width: 100%;
-                    margin-top: 30px;
-                  margin-bottom: 150px}
+           
 
                   #next-slick{
                    margin-top: 50px;
