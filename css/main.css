@@ -112,7 +112,13 @@ body {
       margin-bottom: 150px}
       .howToList{
         display: none;
-
+        font-weight: 600;
+        line-height: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20em;
+        margin-bottom: 80px;
+        padding-left: 20px;
       }
       .howToLi{
         margin-bottom: 20px;
@@ -122,13 +128,7 @@ body {
          display: none;
         } 
         .howToList{
-          font-weight: 600;
           display: block;
-          line-height: 25px;
-          margin-left: auto;
-          margin-right: auto;
-          width: 20em;
-          margin-bottom: 80px;
 
         }
         .howToList li::before{
@@ -137,11 +137,16 @@ body {
           font-size: 4px;
           background: rgb(32, 160, 82);
           border-radius: 50%;
-          padding: 1px 3px;
+          padding: 1px 4px;
           vertical-align: bottom;
         }
-      
         }
+
+    
+        b-block_howWeDo{
+
+        }
+     
 .b-header {
 
   background-image:  url(../img/main-pic.jpg);
@@ -731,7 +736,9 @@ body {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around; }
-
+.b-center{
+  text-align: center;
+}
 .b-block_item {
   margin-bottom: 60px; }
 
@@ -745,7 +752,10 @@ body {
   background-color: #f2f2f2;
   padding: 45px 0;
   text-align: center; }
-
+.itemWhite{
+  background-color: white;
+  text-align: left;
+}
   @media (max-width: 974px) {
     .item {
       width: 22%;
@@ -1452,10 +1462,31 @@ body {
                 background-size: 50px auto;
                 display: inline-block;
                 background-repeat: no-repeat;
+                
+            }
+            .pic{
+              height: 110px;
+              width: 100px;
+              background-size: 100px auto;
+              display: inline-block;
+              background-repeat: no-repeat;
             }
             
             .icon_text{
               font-size: 14px;
+            }
+            .picCall{
+              background-image: url(../img/pic1.png); 
+            
+            }
+            .picWork{
+              background-image: url(../img/pic1.png); 
+            }
+            .picComplete{
+              background-image: url(../img/pic2.png); 
+            }
+            .picPay{
+              background-image: url(../img/pic1.png); 
             }
             
             .fridge {
