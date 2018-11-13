@@ -745,7 +745,16 @@ body {
 /* 	margin-right: 40px;
 
 	&:last-child
-		margin-right: 0px; */
+    margin-right: 0px; */
+    
+.how-item{
+  width: 230px;
+  height: 300px;
+  background-color: #f2f2f2;
+  padding: 45px 0;
+  text-align: center; }
+
+
 .item {
   width: 230px;
   height: 300px;
@@ -776,6 +785,7 @@ body {
         float: left;
         margin-top: 33px;
         margin-left: 7%;
+        font-weight: 600;
       }
      .item_button{
        display: none;
@@ -817,6 +827,9 @@ body {
   .timeblock{
     padding-left: 10px;
     padding-right: 10px;
+  }
+  #timetable{
+    margin-top: -180px;
   }
 .table {
   max-width: 720px;
@@ -1464,29 +1477,58 @@ body {
                 background-repeat: no-repeat;
                 
             }
-            .pic{
-              height: 110px;
-              width: 100px;
-              background-size: 100px auto;
-              display: inline-block;
-              background-repeat: no-repeat;
-            }
+            
             
             .icon_text{
               font-size: 14px;
             }
-            .picCall{
-              background-image: url(../img/pic1.png); 
-            
+            .item_class{
+              font-weight: 500;
+              line-height: 20px;
             }
+            .pic{
+              background-repeat: no-repeat;
+              -webkit-background-size: 70px auto;
+                      background-size: 70px auto;
+              background-position-y: center; 
+              background-position-x: center;
+              height: 140px;
+            }
+            .picCall{
+              background-image: url(../img/pic4.png); 
+              background-position-x: 62px;
+             } 
+            
             .picWork{
-              background-image: url(../img/pic1.png); 
+              background-image: url(../img/pic1.png);
+              -webkit-background-size: 110px auto;
+              background-size: 110px auto; 
+              background-position-x: 32px;
             }
             .picComplete{
-              background-image: url(../img/pic2.png); 
+              background-image: url(../img/pic3.png); 
+              background-position-x: 72px;
             }
             .picPay{
-              background-image: url(../img/pic1.png); 
+              background-image: url(../img/pic2.png); 
+              -webkit-background-size: 90px auto;
+              background-size: 90px auto; 
+              background-position-x: 52px;
+            }
+
+            @media (max-width: 760px){
+              .picCall{
+                background-position-x: center;
+              }
+              .picComplete{
+                background-position-x: center;
+              }
+              .picPay{
+                background-position-x: center;
+              }
+              .picWork{
+                background-position-x: center;
+              }
             }
             
             .fridge {
@@ -1879,7 +1921,7 @@ body {
                       margin-left: auto;
                       margin-right: auto;
                       margin-top: 100px;
-                      max-width: 316px;
+                      max-width: 350px;
                       padding: 40px 5px; 
                     }
                     .type {
@@ -1892,6 +1934,7 @@ body {
                       font-size: 10px;
                       margin-top: 30px;
                   }
+                 
                   #flat-slider{
                     max-width: 250px;
                    
@@ -1960,4 +2003,26 @@ body {
               #paymentList {
                 margin: 0 0 40px 20px;
                }
+                }
+
+
+                .sertificates{
+                  padding-bottom: 20px;
+                }
+                .howWeDo{
+                  padding-bottom: 20px;
+                  
+                }
+                #howWeDo{
+                  margin-top: -100px;
+                }
+               .center_text{
+                 text-align: -webkit-center
+               }
+                .about_text{
+                  line-height: 27px;
+                max-width: 800px;
+                text-align: left;
+                padding: 20px;
+                margin-top: -80px;
                 }
