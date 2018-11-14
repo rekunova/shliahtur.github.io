@@ -8,9 +8,10 @@ var officeClicked = false;
 var houseClicked = false;
 
 $(function () {
-    $('.type').addClass('typeOff')
-    $('.flat').removeClass('typeOff').addClass('typeOn')
-    
+    $('.type').addClass('typeOff');
+    $('.flat').removeClass('typeOff').addClass('typeOn');
+    $('.ftype').addClass('typeOff');
+    $('.fRooms').removeClass('typeOff').addClass('typeOn');
  
     $(".office").bind('click', function () {
         flatClicked = false;
@@ -378,10 +379,83 @@ $(function () {
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 $(function(){
+  
     $('#showHidden').bind('click', function()
 {
     $(this).hide();
     $('.hidden-calc').show();
 });
-})
+
+function reset(){
+    $('.howToPhoto1').hide();
+    $('.howToPhoto2').hide();
+    $('.howToPhoto3').hide();
+    $('.howToPhoto4').hide();
+    $('.listContainer1').hide();
+    $('.listContainer2').hide();
+    $('.listContainer3').hide();
+    $('.listContainer4').hide();
+}
+
+$('.fRooms').bind('click', function(){
+    $('.ftype').addClass('typeOff');
+    $(this).removeClass('typeOff').addClass('typeOn');
+    reset();
+    if(window.matchMedia('(max-width: 800px)').matches)
+    {
+    $('.listContainer1').show();
+   
+    } 
+    else{
+        $('.howToPhoto1').show();
+    }
+});
+$('.fHall').bind('click', function(){
+    $('.ftype').addClass('typeOff');
+    $(this).removeClass('typeOff').addClass('typeOn');
+    reset();
+    if(window.matchMedia('(max-width: 800px)').matches)
+    {
+    $('.listContainer2').show();
+   
+    } 
+    else{
+        $('.howToPhoto2').show();
+    }
+});
+$('.fKitchen').bind('click', function(){
+    $('.ftype').addClass('typeOff');
+    $(this).removeClass('typeOff').addClass('typeOn');
+    reset();
+    if(window.matchMedia('(max-width: 800px)').matches)
+    {
+    $('.listContainer3').show();
+   
+    } 
+    else{
+        $('.howToPhoto3').show();
+    }
+
+
+});
+$('.fBath').bind('click', function(){
+    $('.ftype').addClass('typeOff');
+    $(this).removeClass('typeOff').addClass('typeOn');
+    reset();
+    if(window.matchMedia('(max-width: 800px)').matches)
+    {
+    $('.listContainer4').show();
+   
+    } 
+    else{
+        $('.howToPhoto4').show();
+    }
+});
+
+});
+
+      

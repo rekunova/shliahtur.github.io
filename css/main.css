@@ -103,13 +103,42 @@ body {
     background: #444444 }
 
     .howToPhoto{
-      background-image: url(../img/howTo.jpg);
-      
+      background-position-x: center;
       background-size: contain;
       background-repeat: no-repeat;
       height: 600px;  
-      margin-top: 30px;
+      margin-top: 50px;
       margin-bottom: 150px}
+
+      .howToPhoto1{
+        background-image: url(../img/howTo.jpg);
+      }
+      .howToPhoto2{
+        background-image: url(../img/howTo2.jpg);
+        display: none;
+        
+      }
+      .howToPhoto3{
+        background-image: url(../img/howTo3.jpg);
+        display: none;
+      }
+      .howToPhoto4{
+        background-image: url(../img/howTo4.jpg);
+        display: none;
+      }
+      .howToList1{
+        display: block;
+      }
+      .howToList2{
+        display: none;
+      }
+      .howToList3{
+        display: none;
+      }
+      .howToList4{
+        display: none;
+      }
+
       .howToList{
         display: none;
         font-weight: 600;
@@ -1401,6 +1430,40 @@ body {
                 padding: 15px 25px;
                 margin-right: -6px;
             }
+            .ftype {
+              font-family: Montserrat;
+              font-size: 14px;
+              font-weight: 600;
+                margin-top:-2px;
+                color: black;
+                background-color: white;
+                border: 1px solid #cecece;
+                margin-right: -6px;
+               padding: 15px 0;
+                width: 280px;
+            }
+            @media(max-width: 1125px){
+              .ftype{
+                width: 200px;
+              }
+            }
+            @media(max-width: 820px){
+              .ftype{
+                width: 150px;
+              }
+            }
+            @media(max-width: 625px){
+              .ftype{
+                width: 100px;
+                padding: 12px 0;
+              }
+            }
+            @media(max-width: 420px){
+              .ftype{
+                width: 150px;
+                padding: 12px 0;
+              }
+            }
 
             
             .typeOn{
@@ -2004,7 +2067,15 @@ body {
                 margin: 0 0 40px 20px;
                }
                 }
+                @media (max-width: 445px){
 
+                  .calculator {
+            
+                
+                    max-width: 315px;
+     
+                  }
+                }
 
                 .sertificates{
                   padding-bottom: 20px;
@@ -2025,4 +2096,17 @@ body {
                 text-align: left;
                 padding: 20px;
                 margin-top: -80px;
+                }
+                .listContainer{
+                  margin-top: 40px;
+                  
+                }
+                .listContainer2{
+                  display: none;
+                }
+                .listContainer3{
+                  display: none;
+                }
+                .listContainer4{
+                  display: none;
                 }
